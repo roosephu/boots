@@ -1,0 +1,10 @@
+tensorflow==1.14.0
+tensorflow_probability=07.0
+numpy==1.16.2
+termcolor
+gym=0.13.0
+json_tricks
+ipdb
+gitpython
+coloredlogs
+toml

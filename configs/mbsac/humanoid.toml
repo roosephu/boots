@@ -1,0 +1,15 @@
+n_iters = 400_000
+policy_hidden_sizes = [256, 256]
+use_normalizer = false
+
+[env]
+id = "ModelBasedHumanoid-v2"
+max_steps = 1000
+
+[SAC]
+n_exploration_steps = 10000
+alpha = 0.05
+
+[model.arch]
+n_units = 500
+n_blocks = 1

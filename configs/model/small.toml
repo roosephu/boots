@@ -1,0 +1,3 @@
+[model.arch]
+n_units = 200
+n_blocks = 1

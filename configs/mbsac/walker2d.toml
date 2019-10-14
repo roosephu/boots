@@ -1,0 +1,15 @@
+n_iters = 400_000
+
+[env]
+id = "ModelBasedWalker2d-v2"
+max_steps = 1000
+
+[SAC]
+n_exploration_steps = 10000
+alpha = 0.2
+
+[batch]
+n_policy_grad_iters = 8
+n_real = 64
+n_starts = 64
+horizon = 3

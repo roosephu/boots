@@ -1,0 +1,17 @@
+*.pyc
+.vscode
+.idea
+.DS_Store
+__pycache__
+
+# libs
+baselines
+rllab
+
+models
+logs
+
+.dropbox.attr
+*.ipynb
+MUJOCO_LOG.TXT
+prof
